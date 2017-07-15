@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+n = 1
+while n <= 10
+  Blog.create(
+    title: "ほげタイトルブログ",
+    content: "ほげ内容ブログ",
+  )
+  n = n + 1
+end
